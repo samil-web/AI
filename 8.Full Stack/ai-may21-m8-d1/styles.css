@@ -1,0 +1,26 @@
+title {
+    color:orangered;
+    
+    /* height: 100vh; */
+    /* background-color: blue; */
+}
+
+h1 {
+    color:aqua;
+    /* height: 100vh; */
+    /* background-color: blue; */
+}
+
+img {
+    max-width: 150px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sportsman{
+    height: 200px;
+    width: 100px;
+}

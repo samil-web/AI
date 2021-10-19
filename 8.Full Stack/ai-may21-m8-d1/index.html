@@ -1,0 +1,167 @@
+<!--
+Create a title for the page
+Create a heading
+Create an ordered list
+Add an image to every element of the list
+Have every image link to 'https://strive.school'
+Divide the page using a horizontal line
+Create a container with a nested paragraph and a nested unordered list
+Create a footer with some information about the page creator. You can use a normal <div> as well as the <footer> tag.
+Create a small "Contact Us" form with sender and message (hint: use <textarea> instead of <input> for the message area.)
+CSS EXERCISES
+Give a maximum width to the body and center it in the page
+Set every h1 to be centered
+Change the color of each link in the page
+Create a class with a border
+Add margin between every paragraph
+Create a class that changes font size and boldness
+Create a class that hides the element
+Create a class that hides the content (hint: use visibility)
+Grab a font from fonts.google.com and set it as default
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Motorcycle world</title>
+        <!-- Add image by a <style> element: -->
+       
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: aqua;
+            font-family: 'Roboto', sans-serif;
+            background:whitesmoke;
+            
+        }
+    </style>
+
+    <link rel="stylesheet" href="styles.css"  />
+    <!-- ref=”stylesheet” href=”./style.css” -->
+</head>
+
+<body>
+    <div style="background-color: #00ff84; color: black; height: 100px; line-height: 100px; text-align: center; position:fixed; top:0px; left:0px; right:0px;">
+        The GHost Rider
+    </div>
+    <h1 style="margin-top:100px; padding-top:100px;">Ninja family</h1>
+    <a href="https://www.youtube.com/watch?v=fpJT9SgQFtg">
+        <img src="https://www.motorbeam.com/wp-content/uploads/Kawasaki-Ninja-ZX10R-India-Road-Test-1200x900.jpg" alt="Video to watch beast"/>
+    </a>
+    <h2>Let's get acquainted with my dream Motorcycle <span style="color: #00ff84">Kawasaki-Ninja-ZX10R</span></h2>
+    <p>The Ninja bloodline makes up Kawasaki’s fiercest two-wheeled warriors, and when the battlefield is set at the racetrack, the Ninja ZX-10R leads the charge for the Japanese firm. With seven World Superbike Championship titles to its name, six of which with Kawasaki Racing Team pilot Jonathan Rea at the helm, the ZX-10R has proven itself time and time again.
+
+        The 2021 Kawasaki Ninja ZX-10R’s refinement this year goes well beyond its fresh new looks and more track-focused riding position. Indeed, the engineering fairy dust has resulted in a more agile chassis, refined suspension, and engine tweaks to satisfy Euro 5 emissions standards, as well as the needs of KRT and Mr. Rea.</p>
+
+    <div style="background: black; color: #00ff84; padding: 10px; border: 10px solid #00ff84; margin: 10px;">
+
+        <div>
+            <p>Hey Racer Enter your name and email to get newsletter about Ninja family </p>
+            <input type="email" placeholder="Insert your email here..." />
+            <input type="password" placeholder="Secret!" />
+            <input type="submit" value="Login" />
+        </div>
+        
+        <div style="background: black; color: #00ff84; padding: 10px; border: 10px solid #00ff84; margin: 10px;text-align: right ">
+
+        <ul>
+            <li>
+                <a href="https://google.com">
+                    <img src="https://stat.overdrive.in/wp-content/uploads/2021/04/2021-Kawasaki-ZX10R-144-of-185-900x506.jpg"
+                         alt="Motorcycle picture" /> 
+                </a>
+            </li>
+            <li>
+                <img src=" https://www.motorbeam.com/wp-content/uploads/Kawasaki-Ninja-ZX10R-India-Road-Test-1200x900.jpg"
+                    alt="Kawasaki-Ninja-ZX10R-India-Road-Test-1200x900" />
+                
+            </li>
+        </ul>
+        </div>
+        Size of the headings:
+        <ol>
+            <li>h1</li>
+            <li>h2</li>
+            <li>h3</li>
+            <li>h4</li>
+            <li>h5</li>
+            <li>h6</li>
+        </ol>
+
+
+        <span style="color:red">POWER
+            CHAMPIONSHIP-PROVEN POWER
+            The 998cc four-cylinder engine of the Ninja® ZX™-10R motorcycle was designed to win championships. Based on feedback from Kawasaki's WorldSBK race machine, a new air-cooled oil cooler increases cooling performance for strong engine performance at all rpm. New gear ratios are optimized for track riding and offer quicker low-mid range acceleration. The Ninja® ZX™-10R is built for those who rise to the challenge.
+            
+            </span>
+        <span>HANDLING
+            RACING-INSPIRED
+            The Ninja® ZX™-10R supersport puts racing-inspired handling technology at your control. Advanced suspension and brake componentry combined with new chassis geometry and precisely tuned bodywork for maximum aerodynamic performance result in handling set to dominate the track.</span>
+        <span>POWER TECHNOLOGY
+            BEYOND NORMAL
+            Kawasaki next-level electronics bring the extraordinary power of the World Superbike-winning Ninja® ZX™-10R motorcycle to stunning new levels.</span>
+        <span>HANDLING TECHNOLOGY
+            DESIGNED TO WIN
+            The Ninja® ZX™-10R motorcycle features World Superbike Championship-proven technology delivering unrivaled agility, control and handling.
+            
+            </span>
+        <span>FEATURING:
+            UPDATED 998cc FOUR-CYLINDER DOHC ENGINE AND AIR-COOLED OIL COOLER
+            UPDATED SHOWA BALANCE FREE SUSPENSION COMPONENTS
+            IMU-ENHANCED ELECTRONICS PACKAGE
+            FINGER-FOLLOWER VALVE ACTUATION
+            HIGH-SPEC BREMBO® BRAKES
+            KAWASAKI QUICK SHIFTER (KQS)
+            SPORT-KAWASAKI TRACTION CONTROL (S-KTRC)
+            KAWASAKI LAUNCH CONTROL MODE (KLCM)
+            KAWASAKI CORNERING MANAGEMENT FUNCTION (KCMF)
+            KAWASAKI ENGINE BRAKE CONTROL
+            ÖHLINS ELECTRONIC STEERING DAMPER</span>
+
+        <p>ADDITIONAL VEHICLE FEATURES:
+            NEW Bodywork with Integrated Winglets
+            NEW Aerodynamic Riding Position
+            NEW Longer Wheelbase, Lowered Swingarm, and Updated Geometry for Improved Turning Performance
+            NEW Electronic Cruise Control
+            NEW Integrated Riding Modes
+            NEW Power Mode Selection
+            NEW All LED Lighting
+            NEW All Digital TFT Color Instrumentation
+            NEW Smartphone Connectivity via RIDEOLOGY THE APP
+            Available with Kawasaki Intelligent Anti-Lock Brake System (KIBS)
+            </p>
+        <p>NINJA® ZX™-10RR
+            MSRP $28,999
+            ADDITIONAL VEHICLE FEATURES:
+            Limited Production Track-Focused Single-Seat Model
+            NEW Pankl Lightweight Pistons and High-Performance Titanium Connecting Rods
+            NEW Intake and Exhaust Valve Springs
+            NEW Pirelli Diablo™ Supercorsa SP Tires
+            Model Exclusive Marchesini Forged Wheels
+            Fine-Tuned Suspension Settings</p>
+        <p>NEXT-LEVEL TECHNOLOGY
+            The highly advanced, compact IMU enables inertia along 6 Degrees of Freedom to be monitored. Acceleration along longitudinal, transverse and vertical axes plus roll rate and pitch are measured. The yaw rate is calculated by the ECU using Kawasaki’s proprietary dynamic modeling software. Kawasaki’s dynamic modeling software utilizes the Bosch IMU as a source of input then processes the input to provide electronic rider aides that support the rider’s intentions</p>
+        <p>KAWASAKI LAUNCH CONTROL MODE
+            The 3-mode system is designed to help racers optimize acceleration from a stop. Kawasaki Launch Control Mode (KLCM) manages engine output to minimize wheelspin and front wheel lift off the starting line.</p>
+        <p>AGILE & BALANCED
+            New chassis geometry moves front/rear balance forward for improved handling and turning performance. Frame and swingarm updates lower the swingarm pivot and lengthen the wheelbase providing improved rear suspension action during corner exits.
+            
+            </p>
+    </div>
+
+
+    <div class="container" style="height: 600px; border:3px solid black;text-align:right">
+
+        <p style="text-align: left; width: 70%; border: black 2px solid;">
+        Valentino Rossi, is an Italian professional motorcycle road racer and multiple time MotoGP World Champion. Rossi is widely considered to be one of the greatest motorcycle racers of all time, with nine Grand Prix World Championships to his name – seven of which are in the premier class.
+        </p>
+        <img class="sportsman" src="https://upload.wikimedia.org/wikipedia/commons/6/62/G013111.jpg",alt = 'Valentino Rossi' style="border: 2px solid blueviolet;">
+        
+    </div>
+</body>
+
+</html>

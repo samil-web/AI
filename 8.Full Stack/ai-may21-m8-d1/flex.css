@@ -1,0 +1,76 @@
+#parent{
+    height: 10px;
+    background: #00ff84;
+    border: 2px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    color:white;
+    background-color: black;
+}
+
+.extra {
+    justify-self: baseline;
+}
+#Head{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+#music-store {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color:khaki;
+}
+
+#music-store img {
+    transition: transform 0.5s;
+    border-radius: 10px;
+}
+
+#music-store img:hover {
+    transform: scale(1.2);
+    border:3px solid red;
+}
+
+#music-store div {
+    position: relative;
+}
+
+#music-store div:hover .play-button{
+    display:block;
+}
+
+
+#test-centering {
+    height: 600px;
+}
+
+@media (max-width: 767px) {
+    #music-store img {
+        max-width: 150px;
+    }
+}
+
+    #Image img {
+        max-width: 400px;
+        max-height: 600px;
+    }
+.contact{
+    max-width:  20px;
+    max-height:20px ;
+    background: gold;
+    border: 2px solid black;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}

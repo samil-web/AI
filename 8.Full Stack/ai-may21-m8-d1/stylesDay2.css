@@ -1,0 +1,55 @@
+/* li {
+    background:red;
+} */
+
+#mySpecialLI {
+    color: white;
+    font-size: 18px;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.big {
+    font-size: 30px;
+}
+
+div p {
+    color: red;
+}
+
+.big span {
+    font-style: italic;
+}
+
+div > p {
+    background-color: yellow;
+}
+
+.big.bold {
+
+}
+
+#whatever .big .bold p { }
+
+/* #avatar .userName p {
+    background: lightblue;
+}
+
+p {
+    background: lightcoral;
+} */
+
+/* 
+(#ids, #classes, #tags)
+#myId { background: red;}
+(1, 0, 0)
+
+.big .bold div { background: blue; }
+(0, 2, 1)
+
+div>p { background: purple; }
+(0, 0, 2)
+*/
